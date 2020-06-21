@@ -11,3 +11,10 @@ for j in range( range(np.shape(some_set)[0]) ):
     plt.ylabel("Yyyyyyyyyyyy")
     plt.title("Tttttt %d" % some_set[j])
     plt.show()
+
+# beep
+import winsound
+duration = 500  # milliseconds
+freq = 440  # Hz
+winsound.Beep(freq, duration)
+
